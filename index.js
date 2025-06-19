@@ -1,5 +1,4 @@
 const AWS = require('aws-sdk');
-
 exports.handler = async (event) => {
     const regionInfoMap = {
         'ap-southeast-2':['AusApplicationClientErrrors','AusApplicationServerErrors'],
